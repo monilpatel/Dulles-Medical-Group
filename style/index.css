@@ -1,0 +1,107 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 18px !important;
+}
+
+nav{
+    border-top: solid #0093be;
+    -webkit-box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.14);
+    box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.14);
+}
+
+#banner{
+    margin-top: 60px;
+    padding-top: 50px;
+    background-image: url("./img/banner.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: none;
+    background-position: bottom;
+    margin-bottom: 0px;
+}
+
+#banner-profile{
+    width: 70%;
+}
+
+.section{
+    padding: 80px 0;
+}
+
+.section h2{
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+.strong-color{
+    color: #0093be;
+}
+
+#insurance-list{
+    border: solid #0093be 5px;
+    border-radius: 10px; 
+    padding: 1em;
+}
+#insurance-list ul{
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.divider{
+    background: #0093be;
+    height: 5px;
+    width: 100%;
+    border-left: solid 20em white;
+    border-right: solid 20em white;
+}
+
+  
+@include media-breakpoint-up(sm) {
+    html {
+        font-size: 1.2rem;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    html {
+        font-size: 1.6rem;
+    }
+}
+
+
+nav {
+    .navbar-brand {font-size: 30px;}
+      .navbar-toggle {margin: 13px 15px 13px 0;}
+      a {
+          font-size: 18px;
+          padding-bottom: 20px !important;
+          padding-top: 20px !important;
+      transition: all 0.3s ease;
+      }
+  }
+  
+  
+  
+  nav.navbar.shrink {
+      min-height: 35px;
+    .navbar-brand {font-size: 25px;}
+    a {
+      font-size: 15px;
+      padding-bottom: 10px !important;
+      padding-top: 10px !important;
+    }
+    .navbar-toggle {
+      margin: 8px 15px 8px 0;
+      padding: 4px 5px;
+    }
+  }
