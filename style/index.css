@@ -82,6 +82,16 @@ img {
     background:#0093be;
 }
 
+.section{
+    /* border: solid 2px red; */
+    padding: 15% 0;
+    display: flex;
+    align-items: center;
+}
+
+.bg-light-gray{
+    background: #F8F9FA;
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query since this is the default in Bootstrap */
@@ -95,6 +105,10 @@ img {
 @media (min-width: 768px) { 
     #stage-info{
         padding-left: 1em;
+    }
+
+    .section{
+        padding: 10% 0;
     }
  }
 
