@@ -4,8 +4,6 @@ body {
 }
 
 body {
-    /* -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility; */
     color: #6c6f73;
 }
 
@@ -39,7 +37,7 @@ h6 {
 
 img {
     max-width: 100%;
-    /* border-radius: 10px; */
+    border-radius: 10px;
 }
 
 #stage {
@@ -55,23 +53,11 @@ img {
 }
 
 #stage-content {
-    /* font-size: 1.4rem;
-    font-weight: 200;
-    max-width: 75rem;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-content: center; */
-    /* this changes default stretch from making image look wierd */
-    /* align-items: center; 
-    flex-wrap: wrap; */
     padding: 1.5em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
+    align-items: center;
     background: rgba(255, 255, 255, 0.627);
-
-    /* align-items: center; */
 }
 
 #stage-content > img{
@@ -81,12 +67,10 @@ img {
 }
 
 #stage-info{
-    /* border: solid red 2px; */
+    margin-right: auto;
     padding-top: 1em;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    /* background: rgba(255, 255, 255, 0.627); */
     justify-content: center;
     max-width: 25em;
 
@@ -101,10 +85,16 @@ img {
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+@media (min-width: 576px) { 
+    
+ }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+@media (min-width: 768px) { 
+    #stage-info{
+        padding-left: 1em;
+    }
+ }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { }
