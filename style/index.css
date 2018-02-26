@@ -47,24 +47,24 @@ img {
     background-size: cover;
     min-height: 80%;
     width: 100%;
-    /* padding: 108px 2em; */
+    padding: 108px 1em 1em 1em;
 }
 
 #stage-content{
-    width: 100%;
-    margin-top: 110px;
+   padding: 1.5em;
+   background: rgba(255, 255, 255, 0.627);
 }
 
-#stage img{
+#stage-content > img{
     width: 40%;
     border-radius: 10px;
+    margin-right: auto;
 }
 
 #stage-info{
+    max-width: 25em;
     padding: 1em;
-    background: rgba(255, 255, 255, 0.627);
 }
-
 
 #read-about{
     background:#0093be;
@@ -73,8 +73,8 @@ img {
 .section{
     /* border: solid 2px red; */
     padding: 15% 0;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 .bg-light-gray{
@@ -86,10 +86,7 @@ img {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    #stage img{
-        width: 60%;
-        border-radius: 10px;
-    }
+   
  }
 
 /* Medium devices (tablets, 768px and up) */
