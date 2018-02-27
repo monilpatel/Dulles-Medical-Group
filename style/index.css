@@ -63,7 +63,8 @@ img {
 
 #stage-info{
     max-width: 25em;
-    padding: 1em;
+    /* padding: 1em; */
+    padding-top: 1em;
 }
 
 #read-about{
@@ -72,13 +73,26 @@ img {
 
 .section{
     /* border: solid 2px red; */
-    padding: 15% 0;
+    padding: 12%;
     /* display: flex;
     align-items: center; */
 }
 
+.section-title{
+    color: #0093be;
+    font-weight: 500;
+}
+
+.section-item-title{
+    color: #333;
+    letter-spacing: .05rem;
+}
 .bg-light-gray{
     background: #F8F9FA;
+}
+
+.text-blue{
+    color: #0093be;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
