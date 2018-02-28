@@ -84,16 +84,32 @@ img {
     margin-bottom: 20px;
 }
 
-.section-item-title{
-    color: #333;
-    letter-spacing: .05rem;
-}
 .bg-light-gray{
     background: #F8F9FA;
 }
 
 .text-blue{
     color: #0093be;
+}
+
+.text-item-label{
+    font-weight: 600;
+    letter-spacing: .03rem;
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
