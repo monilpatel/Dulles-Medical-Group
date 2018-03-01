@@ -7,7 +7,11 @@ body {
     color: #6c6f73;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: #333;
 }
 
@@ -17,24 +21,31 @@ h6 {
     letter-spacing: 0.1rem;
 }
 
-.navbar{
+.navbar {
     padding-top: 25px;
     padding-bottom: 25px;
     transition: all 0.3s;
-    -webkit-box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.14);
-    -moz-box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.14);
-    box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 4px 10px -4px rgba(0, 0, 0, 0.14);
+    border-bottom: solid #0093be
+
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
 }
+
 .navbar.compressed {
     padding-top: 10px;
     padding-bottom: 10px;
-    background: #6dcc7c;
-    color: #6dcc7c;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .active{
+    color: #0093be !important;
+    font-weight: 500 !important;
+
 }
 
 img {
@@ -50,83 +61,60 @@ img {
     padding: 108px 1em 1em 1em;
 }
 
-#stage-content{
-   padding: 1.5em;
-   background: rgba(255, 255, 255, 0.627);
+#stage-content {
+    padding: 1.5em;
+    background: rgba(255, 255, 255, 0.627);
 }
 
-#stage-content > img{
+#stage-content>img {
     width: 40%;
     border-radius: 10px;
     margin-right: auto;
 }
 
-#stage-info{
+#stage-info {
     max-width: 25em;
-    /* padding: 1em; */
     padding-top: 1em;
 }
 
-#read-about{
-    background:#0093be;
+#read-about {
+    background: #0093be;
 }
 
-.section{
-    /* border: solid 2px red; */
+.section {
     padding: 12%;
-    /* display: flex;
-    align-items: center; */
 }
 
-.section-title{
+.section-title {
     color: #0093be;
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.bg-light-gray{
+.bg-light-gray {
     background: #F8F9FA;
 }
 
-.text-blue{
+.text-blue {
     color: #0093be;
 }
 
-.text-item-label{
+.text-item-label {
     font-weight: 600;
     letter-spacing: .03rem;
 }
 
-
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-   
- }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    
- }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
