@@ -51,11 +51,7 @@ a{
 }
 
 .navbar .active{
-    /* color: #0093be !important;
-    font-weight: 500 !important; */
-
-    background: #0093be;
-    color: white !important;
+    color: #0093be !important;
 }
 
 img {
@@ -134,3 +130,13 @@ img {
 .container{
     max-width: 720px !important;
 }
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .navbar .active {    
+        background: #0093be;
+        color: white !important;
+    }
+
+ }
