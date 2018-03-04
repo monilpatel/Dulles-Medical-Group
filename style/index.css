@@ -1,10 +1,14 @@
+/* blue-green: #48CFCB */
+/* blue: #0093be */
+
 html,
 body {
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    color: #6c6f73;
+    color: rgb(84, 88, 91);;
 }
 
 h1,
@@ -19,6 +23,10 @@ h6 {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.1rem;
+}
+
+a{
+    color: #0093be;
 }
 
 .navbar {
@@ -44,8 +52,6 @@ h6 {
 
 .navbar .active{
     color: #0093be !important;
-    font-weight: 500 !important;
-
 }
 
 img {
@@ -55,6 +61,9 @@ img {
 
 #stage {
     background: url('../img/hospital_web.jpg') center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     min-height: 80%;
     width: 100%;
@@ -85,10 +94,9 @@ img {
     padding: 12%;
 }
 
-.section-title {
-    color: #0093be;
-    font-weight: 500;
-    margin-bottom: 20px;
+.text-emphasis{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
 }
 
 .bg-light-gray {
@@ -108,7 +116,7 @@ img {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    height: 0;
+    height: 100%;
 }
 
 .map-responsive iframe {
@@ -118,3 +126,17 @@ img {
     width: 100%;
     position: absolute;
 }
+
+.container{
+    max-width: 720px !important;
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .navbar .active {    
+        background: #0093be;
+        color: white !important;
+    }
+
+ }
